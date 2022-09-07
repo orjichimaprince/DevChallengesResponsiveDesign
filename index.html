@@ -11,10 +11,21 @@
     <title>Devchallenges</title>
 </head>
 <style>
-    * {
-        /* overflow-x: hidden; */
+    /* * {
+        overflow-x: hidden;
+    } */
+    
+    body::-webkit-scrollbar {
+        display: none;
     }
     
+    body {
+        overflow: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    
+    ;
     .tester {
         position: relative;
         width: 120px;
